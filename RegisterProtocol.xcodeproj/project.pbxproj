@@ -13,6 +13,7 @@
 		70DC6A07250FC4E3008328CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DC6A05250FC4E3008328CE /* Main.storyboard */; };
 		70DC6A09250FC4E7008328CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DC6A08250FC4E7008328CE /* Assets.xcassets */; };
 		70DC6A0C250FC4E7008328CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DC6A0A250FC4E7008328CE /* LaunchScreen.storyboard */; };
+		70DC6A14250FC50F008328CE /* RegisterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC6A13250FC50F008328CE /* RegisterTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		70DC6A08250FC4E7008328CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70DC6A0B250FC4E7008328CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70DC6A0D250FC4E7008328CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DC6A13250FC50F008328CE /* RegisterTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				70DC6A08250FC4E7008328CE /* Assets.xcassets */,
 				70DC6A0A250FC4E7008328CE /* LaunchScreen.storyboard */,
 				70DC6A0D250FC4E7008328CE /* Info.plist */,
+				70DC6A13250FC50F008328CE /* RegisterTableView.swift */,
 			);
 			path = RegisterProtocol;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				70DC6A04250FC4E3008328CE /* ViewController.swift in Sources */,
 				70DC6A00250FC4E3008328CE /* AppDelegate.swift in Sources */,
+				70DC6A14250FC50F008328CE /* RegisterTableView.swift in Sources */,
 				70DC6A02250FC4E3008328CE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
