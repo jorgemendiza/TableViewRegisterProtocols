@@ -11,9 +11,12 @@ import UIKit
 protocol RegisterTableView: UITableViewCell {
     static func register(in tableView: UITableView)
     static func deque(from tableView: UITableView) -> Self
+    static var identifier: String { get }
+    static var nib: UINib { get }
 }
 
 extension UITableViewCell: RegisterTableView {
+    
     static func register(in tableView: UITableView) {
         tableView.register(nib, forCellReuseIdentifier: identifier)
     }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7013A522251420160033A1FF /* Celda1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013A520251420160033A1FF /* Celda1TableViewCell.swift */; };
+		7013A523251420160033A1FF /* Celda1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7013A521251420160033A1FF /* Celda1TableViewCell.xib */; };
 		70DC6A00250FC4E3008328CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC69FF250FC4E3008328CE /* AppDelegate.swift */; };
 		70DC6A02250FC4E3008328CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC6A01250FC4E3008328CE /* SceneDelegate.swift */; };
 		70DC6A04250FC4E3008328CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC6A03250FC4E3008328CE /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7013A520251420160033A1FF /* Celda1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celda1TableViewCell.swift; sourceTree = "<group>"; };
+		7013A521251420160033A1FF /* Celda1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Celda1TableViewCell.xib; sourceTree = "<group>"; };
 		70DC69FC250FC4E3008328CE /* RegisterProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DC69FF250FC4E3008328CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70DC6A01250FC4E3008328CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				70DC69FF250FC4E3008328CE /* AppDelegate.swift */,
 				70DC6A01250FC4E3008328CE /* SceneDelegate.swift */,
 				70DC6A03250FC4E3008328CE /* ViewController.swift */,
+				7013A520251420160033A1FF /* Celda1TableViewCell.swift */,
+				7013A521251420160033A1FF /* Celda1TableViewCell.xib */,
 				70DC6A05250FC4E3008328CE /* Main.storyboard */,
 				70DC6A08250FC4E7008328CE /* Assets.xcassets */,
 				70DC6A0A250FC4E7008328CE /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70DC6A0C250FC4E7008328CE /* LaunchScreen.storyboard in Resources */,
+				7013A523251420160033A1FF /* Celda1TableViewCell.xib in Resources */,
 				70DC6A09250FC4E7008328CE /* Assets.xcassets in Resources */,
 				70DC6A07250FC4E3008328CE /* Main.storyboard in Resources */,
 			);
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70DC6A04250FC4E3008328CE /* ViewController.swift in Sources */,
+				7013A522251420160033A1FF /* Celda1TableViewCell.swift in Sources */,
 				70DC6A00250FC4E3008328CE /* AppDelegate.swift in Sources */,
 				70DC6A14250FC50F008328CE /* RegisterTableView.swift in Sources */,
 				70DC6A02250FC4E3008328CE /* SceneDelegate.swift in Sources */,
